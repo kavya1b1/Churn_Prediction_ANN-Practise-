@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+env/
+venv/
+.myenv/
+churn310/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# TensorFlow / Keras
+logs/
+*.h5
+
+# Pickle files
+*.pkl
+
+# Data files
+*.csv
+
+# OS files
+.DS_Store
+Thumbs.db
