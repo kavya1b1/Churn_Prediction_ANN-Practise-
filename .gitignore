@@ -14,7 +14,7 @@ churn310/
 
 # TensorFlow / Keras
 logs/
-*.h5
+
 
 # Pickle files
 *.pkl
