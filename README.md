@@ -49,20 +49,31 @@ Accuracy
 
 📂 Project Structure
 CHURN(ANN)/
+
 │
-├── app.py                      # Streamlit application
+
+├── app.py                       # Streamlit application
+
 ├── experiments.ipynb           # Model training & experimentation
+
 ├── prediction.ipynb            # Prediction testing notebook
+
 ├── requirements.txt            # Project dependencies
+
 │
 ├── model.h5                    # Trained ANN model
+
 ├── model_tf215.h5              # TensorFlow compatible model
+
 │
 ├── label_encoder_gender.pkl    # Gender label encoder
+
 ├── onehot_encoder_geo.pkl      # Geography one-hot encoder
+
 ├── scaler.pkl                  # Feature scaler
 │
 ├── logs/                       # TensorBoard logs (ignored in GitHub)
+
 └── Churn_Modelling 2.csv       # Dataset (ignored in GitHub)
 ------------------------------------------------------------------------------------------------------------------
 
